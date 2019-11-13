@@ -59,7 +59,7 @@ while row_index < src.count do
   element_index+=1
 
   end
-  row_index+=2
+  row_index+=src.count
 end
 inner_total
 end
