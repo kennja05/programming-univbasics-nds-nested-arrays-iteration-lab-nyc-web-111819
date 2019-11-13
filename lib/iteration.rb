@@ -54,7 +54,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < (src[row_index].count) do 
     if (src[row_index][0] % 2) + (src[row_index][1] % 2) == 0 
-      inner_total = (src[row_index][0] + src[row_index][1])
+      inner_total = inner_total + (src[row_index][0] + src[row_index][1])
       
     end
   element_index+=1
