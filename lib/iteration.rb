@@ -61,5 +61,5 @@ while row_index < src.count do
   end
   row_index+=1
 end 
-inner_total
+total = inner_total
 end
