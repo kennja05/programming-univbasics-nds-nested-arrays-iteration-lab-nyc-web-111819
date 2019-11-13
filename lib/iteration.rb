@@ -58,9 +58,9 @@ while row_index < src.count do
       inner_total = (src[row_index][0] + src[row_index][1])
     end
   element_index+=1
-  
+
   end
   row_index+=1
 end
-total
+inner_total
 end
